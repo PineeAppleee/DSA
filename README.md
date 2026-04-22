@@ -1,27 +1,102 @@
+# 🚀 Java DSA Solutions
 
-<h1 align="center">Hi 👋, I'm Kamal</h1>
-<h3 align="center">Iam Good At Probleam Solving.</h3>
-<img align=“right” alt=“Coding” Width =“400” src=“https://dribbble.com/shots/15637256-coding/attachments/7428659?mode=media”>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=pineeappleee&label=Profile%20views&color=0e75b6&style=flat" alt="pineeappleee" /> </p>
+This repository contains my solutions to various **Data Structures and Algorithms (DSA)** problems implemented in **Java**.
+The goal of this repo is to strengthen problem-solving skills and prepare for coding interviews.
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pineeappleee" alt="pineeappleee" /></a> </p>
+---
 
-- 🌱 I’m currently learning **Data Structures And Algorithms**
+## 📌 About
 
-- 💬 Ask me about **Algorithms**
+* Language: Java
+* Topics covered: Stack, Queue, Trees, Graphs, Dynamic Programming, etc
+* Platform: Problems are solved from platforms like LeetCode, Codeforces, GeeksforGeeks
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/kamal-joshi-1958b1259" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="kamal-joshi-1958b1259" height="30" width="40" /></a>
-<a href="https://www.leetcode.com/jarviskamal123" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="jarviskamal123" height="30" width="40" /></a>
-</p>
+---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://kotlinlang.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg" alt="kotlin" width="40" height="40"/> </a> <a href="https://www.photoshop.com/en" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/photoshop/photoshop-line.svg" alt="photoshop" width="40" height="40"/> </a> </p>
+## 📂 Folder Structure
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=pineeappleee&show_icons=true&locale=en&layout=compact" alt="pineeappleee" /></p>
+```
+Java-DSA/
+│
+├── Stack/
+├── Queue/
+├── Trees/
+├── Graphs/
+├── DynamicProgramming/
+|__ Trie/
+```
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=pineeappleee&show_icons=true&locale=en" alt="pineeappleee" /></p>
+Each folder contains Java solutions related to that topic.
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=pineeappleee&" alt="pineeappleee" /></p>
+---
 
+## 🧠 Approach
+
+For every problem:
+
+* Understand the problem statement clearly
+* Identify patterns (sliding window, recursion, DP, etc)
+* Optimize from brute force to efficient solution
+* Write clean and readable code
+
+---
+
+## ⚙️ How to Run
+
+1. Clone the repository:
+
+```
+git clone https://github.com/your-username/java-dsa-solutions.git
+```
+
+2. Navigate to the folder:
+
+```
+cd java-dsa-solutions
+```
+
+3. Compile and run:
+
+```
+javac FileName.java
+java FileName
+```
+
+---
+
+## 📊 Complexity
+
+Each solution includes:
+
+* Time Complexity
+* Space Complexity
+
+---
+
+## 🎯 Goals
+
+* Improve problem-solving skills
+* Prepare for coding interviews
+* Build strong foundation in DSA
+* Maintain consistency in practice
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this repo and improve solutions or add new problems.
+
+---
+
+## ⭐ Support
+
+If you find this helpful, consider giving it a star ⭐
+
+---
+
+## 📬 Contact
+
+For any queries or collaboration:
+
+* Email: [kamaljoshi2040@gmail.com]
+* GitHub: https://github.com/PineeAppleee
