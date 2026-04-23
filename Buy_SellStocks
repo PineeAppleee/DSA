@@ -1,0 +1,36 @@
+/*
+Memoization approach same as sell stock 2
+. just a change we have a limit of atmost 2 transaction so
+ we can do only 2 transaction once we sell the satock after buying it 
+ we sucessfully completed our one transaction
+ so we reduce our cap by one or once it will be zero so we return 0
+ because then their is nothing to sell because we can't do more than two transaction
+*/
+class Solution {
+    public int maxProfit(int[] prices) {
+        //Arrays.sort(prices);
+        int dp [][][] = new int[prices.length][2][3];
+       for (int i = 0; i < prices.length; i++) {
+            for (int j = 0; j < 2; j++) {
+                Arrays.fill(dp[i][j], -1);
+            }
+        }
+        return rec(prices,0,1,2,dp);
+    }
+    public int rec(int[] prices,int idx,int toggle,int cap,int dp[][][]){
+        if(cap == 0) return 0;
+        if(idx==prices.length) return 0;
+         
+         if(dp[idx][toggle][cap]!=-1) return dp[idx][toggle][cap];
+        if(toggle==1){
+        return 
+        dp[idx][toggle][cap] =
+         Math.max(-prices[idx]+rec(prices,idx+1,0,cap,dp),0+rec(prices,idx+1,1,cap,dp));
+        }else
+          return 
+          dp[idx][toggle][cap] =
+           Math.max(prices[idx]+rec(prices,idx+1,1,cap-1,dp),0+rec(prices,idx+1,0,cap,dp));
+        
+        
+    }
+}
